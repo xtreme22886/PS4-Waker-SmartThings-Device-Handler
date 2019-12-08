@@ -85,6 +85,7 @@ tiles(scale: 2) {
 
 def updated() {
     configure()
+    refresh()
 }
 
 def installed() {
