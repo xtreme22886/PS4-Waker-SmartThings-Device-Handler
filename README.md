@@ -24,4 +24,6 @@ Installation
 
 ![Playing Game](https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/screenshots/Playing%20Game.png)
 
+![Playing Game](https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/screenshots/PS%20Off.png)
+
 ![Playing Game](https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/screenshots/Settings.png)
