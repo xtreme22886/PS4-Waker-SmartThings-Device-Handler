@@ -51,7 +51,7 @@ tiles(scale: 2) {
             attributeState "turningOff", label:'${name}', icon: "https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/icons/PS_Color.png", backgroundColor: "#ffffff", nextState: "turningOn"
         }
         tileAttribute("device.nowPlaying", key: "SECONDARY_CONTROL") {
-    		attributeState("default", label:'Current Activity: ${currentValue}', icon: "https://cdn2.iconfinder.com/data/icons/kitchen-appliances-computers-and-electronics/32/Appliances-32-512.png")
+    		attributeState("default", label:'Current Activity: ${currentValue}', icon: "https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/icons/gameicon.png")
         }
     }
     standardTile("on", "device.on", width: 2, height: 2, decoration: "flat") {
