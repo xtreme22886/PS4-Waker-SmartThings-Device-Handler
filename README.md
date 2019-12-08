@@ -4,7 +4,7 @@ SmartThings Device Handler for PS4-Waker
 I took this device hanlder (https://github.com/ChronoStriker1/PS4-Waker-Smartthings-Handler) and re-wrote it as things were broken with it.
 
 Pre-Requesites
-- ps4-waker w/ a REST wrapper for it. I used (https://github.com/Knapoc/ps4-waker-rest) but made tweaks to it. I'll post up those changes soon.
+- ps4-waker w/ a REST wrapper for it. I used (https://github.com/Knapoc/ps4-waker-rest) but I made tweaks so you can find my version here (https://github.com/xtreme22886/ps4-waker-rest).
 
 Features
 - Control PS4 power (on/off)
