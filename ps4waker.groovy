@@ -45,20 +45,20 @@ metadata {
 tiles(scale: 2) {
     multiAttributeTile(name:"switch", type: "generic", width: 6, height: 4, canChangeIcon: false){
         tileAttribute ("device.switch", key: "PRIMARY_CONTROL") {
-            attributeState "on", label:'${name}', action:"off", icon: "https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/PS_Color.png", backgroundColor: "#00a0dc", nextState: "turningOff"
-            attributeState "off", label:'${name}', action:"on", icon: "https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/PS_Grey.png", backgroundColor: "#ffffff", nextState: "turningOn"
-            attributeState "turningOn", label:'${name}', icon: "https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/PS_Grey.png", backgroundColor: "#00a0dc", nextState: "turningOff"
-            attributeState "turningOff", label:'${name}', icon: "https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/PS_Color.png", backgroundColor: "#ffffff", nextState: "turningOn"
+            attributeState "on", label:'${name}', action:"off", icon: "https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/icons/PS_Color.png", backgroundColor: "#00a0dc", nextState: "turningOff"
+            attributeState "off", label:'${name}', action:"on", icon: "https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/icons/PS_Grey.png", backgroundColor: "#ffffff", nextState: "turningOn"
+            attributeState "turningOn", label:'${name}', icon: "https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/icons/PS_Grey.png", backgroundColor: "#00a0dc", nextState: "turningOff"
+            attributeState "turningOff", label:'${name}', icon: "https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/icons/PS_Color.png", backgroundColor: "#ffffff", nextState: "turningOn"
         }
         tileAttribute("device.nowPlaying", key: "SECONDARY_CONTROL") {
     		attributeState("default", label:'Current Activity: ${currentValue}', icon: "https://cdn2.iconfinder.com/data/icons/kitchen-appliances-computers-and-electronics/32/Appliances-32-512.png")
         }
     }
     standardTile("on", "device.on", width: 2, height: 2, decoration: "flat") {
-            state "default", label:"On", action:"on", icon:"https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/PS4_On.png"
+            state "default", label:"On", action:"on", icon:"https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/icons/PS4_On.png"
         }   
     standardTile("off", "device.off", width: 2, height: 2, decoration: "flat") {
-            state "default", label:"Off", action:"off", icon:"https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/PS4_Off.png"
+            state "default", label:"Off", action:"off", icon:"https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/icons/PS4_Off.png"
         }
     standardTile("refresh", "device.refresh", width: 2, height: 2, decoration: "flat") {
             state "default", label:"", action:"refresh", icon:"st.secondary.refresh"
