@@ -14,6 +14,13 @@ With this you will be able to control the PS4 power and start/switch games with 
 
 Note: The handler will refresh the PS4 status every 15 minutes to capture the PS4's current activity.
 
+Installation
+- Install and configure ps4-waker w/ REST wrapper on a PC / Raspberry Pi
+- Make sure that a static IP address is assigned to both the PC running ps4-waker and the PS4
+- Take the ps4waker.groovy code and create a new handler in your SmartThings IDE 'My Device Hanlders'
+- Make sure to Save / Publish this new device handler
+- Go to 'My Devices' and create a new device using this handler
+
 ![Playing Game](https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/screenshots/Playing%20Game.png)
 
 ![Playing Game](https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/screenshots/Settings.png)
