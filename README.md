@@ -13,3 +13,5 @@ Features
 With this you will be able to control the PS4 power and start/switch games with the SmartThings app. You will be able to have Alexa/Google Home/Haromony Hub power on/off your playtation but cannot use voice commands to start/switch games. You can use a virtual switch in conjunction with WebCORE to have Alexa/Google Home start/switch games for you.
 
 Note: The handler will refresh the PS4 status every 15 minutes to capture the PS4's current activity.
+
+![Playing Game](https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/screenshots/Playing%20Game.png)
