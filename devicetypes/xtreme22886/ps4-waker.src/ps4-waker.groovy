@@ -93,11 +93,11 @@ def installed() {
 }
 
 def configure() {
-	runEvery15Minutes(refresh)
+    runEvery15Minutes(refresh)
 }
 
 def parse(String description) {
-	log.debug "Parsing '${description}'"
+    log.debug "Parsing '${description}'"
 }
 
 def setCurrentGame(String playing, String titleID){
@@ -106,19 +106,19 @@ def setCurrentGame(String playing, String titleID){
 }
 
 def refresh(){
-	try {
-		log.debug "Executing Refresh"
+    try {
+	log.debug "Executing Refresh"
         def cmd = makeCommand("info")
         sendCommand(cmd, callback)
         }
     	catch (Exception e)
     	{
-        	log.debug "Hit Exception $e"
+       		log.debug "Hit Exception $e"
     	}
 }
 
 def on() {
-	try {
+    try {
     	log.debug "Executing On"
     	def cmd = makeCommand("on")
     	sendCommand(cmd, null)
@@ -132,7 +132,7 @@ def on() {
 }
 
 def off() {
-	try {
+    try {
     	log.debug "Executing Off"
     	def cmd = makeCommand("off")
     	sendCommand(cmd, null)
@@ -146,7 +146,7 @@ def off() {
 }
 
 def callback(physicalgraph.device.HubResponse hubResponse){
-	def msg
+    def msg
     try {
         msg = parseLanMessage(hubResponse.description)
 		def jsonObj = new groovy.json.JsonSlurper().parseText(msg.body)
@@ -176,7 +176,7 @@ def callback(physicalgraph.device.HubResponse hubResponse){
 }
 
 def game1() {
-	log.debug "Starting Game 1"
+    log.debug "Starting Game 1"
     def headers = [:]
     headers.put("HOST","${settings.WakerIP}:${settings.WakerPort}")
     def result = new physicalgraph.device.HubAction(
@@ -192,7 +192,7 @@ def game1() {
 }
 
 def game2() {
-	log.debug "Starting Game 2"
+    log.debug "Starting Game 2"
     def headers = [:]
     headers.put("HOST","${settings.WakerIP}:${settings.WakerPort}")
     def result = new physicalgraph.device.HubAction(
@@ -208,7 +208,7 @@ def game2() {
 }
 
 def game3() {
-	log.debug "Starting Game 3"
+    log.debug "Starting Game 3"
     def headers = [:]
     headers.put("HOST","${settings.WakerIP}:${settings.WakerPort}")
     def result = new physicalgraph.device.HubAction(
@@ -224,12 +224,12 @@ def game3() {
 }
 
 def sendCommand(options, _callback){
-	def myhubAction = new physicalgraph.device.HubAction(options, null, [callback: _callback])
+    def myhubAction = new physicalgraph.device.HubAction(options, null, [callback: _callback])
     sendHubCommand(myhubAction)
 }
 
 def makeCommand(cmd){
-	def options = [
+    def options = [
      	"method": "GET",
         "path": "/ps4/${settings.PS4IP}/${cmd}",
         "headers": [
