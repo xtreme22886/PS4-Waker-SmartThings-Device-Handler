@@ -15,3 +15,5 @@ With this you will be able to control the PS4 power and start/switch games with 
 Note: The handler will refresh the PS4 status every 15 minutes to capture the PS4's current activity.
 
 ![Playing Game](https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/screenshots/Playing%20Game.png)
+
+![Playing Game](https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/screenshots/Settings.png)
