@@ -20,6 +20,7 @@ Installation
 - Take the ps4waker.groovy code and create a new handler in your SmartThings IDE 'My Device Hanlders'
 - Make sure to Save / Publish this new device handler
 - Go to 'My Devices' and create a new device using this handler
+- Edit the device in the smart phone app to set the Waker IP address, Waker port and the PS4 IP address
 
 ![Playing Game](https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/screenshots/Playing%20Game.png)
 
