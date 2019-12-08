@@ -26,7 +26,7 @@ preferences {
 }  
  
 metadata {
-    definition (name: "PS4-Waker", namespace: "ps4waker", author: "xtreme") {
+    definition (name: "ps4-waker", namespace: "xtreme22886", author: "xtreme") {
         capability "Actuator"
         capability "Switch"
         capability "Refresh"
