@@ -1,4 +1,4 @@
-# PS4-Waker-SmartThings-Device-Hanlder
+# PS4-Waker-SmartThings-Device-Handler
 SmartThings Device Handler for PS4-Waker
 
 I took this device handler (https://github.com/ChronoStriker1/PS4-Waker-Smartthings-Handler) and re-wrote it as things were broken with it.
