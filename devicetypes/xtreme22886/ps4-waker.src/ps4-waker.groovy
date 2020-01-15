@@ -61,7 +61,7 @@ tiles(scale: 2) {
             state "default", label:"Off", action:"off", icon:"https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Hanlder/master/icons/PS4_Off.png"
         }
     standardTile("refresh", "device.refresh", width: 2, height: 2, decoration: "flat") {
-            state "default", label:"", action:"refresh", icon:"st.secondary.refresh"
+            state "default", label:"", action:"refresh", icon:"https://raw.githubusercontent.com/xtreme22886/PS4-Waker-SmartThings-Device-Handler/master/icons/refresh.png"
         }
     standardTile("game1", "device.game1", width: 2, height: 2, decoration: "flat") {
     		state "default", label:"Game 1", action:"game1", backgroundColor:"#ffffff"
